@@ -20,7 +20,7 @@ class Solution {
         int end=s.length-1;
 
         while(start < end ){
-            int temp = s[start];
+            char temp = s[start];
             s[start]=s[end];
             s[end]=temp;
             start++;
